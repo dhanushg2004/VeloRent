@@ -1,0 +1,17 @@
+{
+  "name": "velorent-nodejs-v15",
+  "version": "15.0.0",
+  "private": true,
+  "description": "VeloRent vehicle rental management frontend with Node.js Express API proxy and Google Apps Script/Sheets integration",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
